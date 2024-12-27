@@ -83,7 +83,7 @@
 		if (!found_new_target)
 			return
 
-	if (try_activate_command(speaker))
+	if (try_activate_command(commander = speaker, radial_command = FALSE))
 		look_for_target(parent, target)
 
 /// Does this callout with this target trigger this command?

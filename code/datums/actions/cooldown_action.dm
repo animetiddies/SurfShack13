@@ -263,6 +263,7 @@
 	if(unset_after_click)
 		unset_click_ability(clicker, refund_cooldown = FALSE)
 	clicker.next_click = world.time + click_cd_override
+
 	return TRUE
 
 /// For signal calling
