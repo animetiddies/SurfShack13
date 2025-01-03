@@ -5,12 +5,14 @@
 import { clamp } from 'common/math';
 import { classes } from 'common/react';
 import { marked } from 'marked';
-import { Component, createRef, RefObject } from 'react';
+import { Component, RefObject } from 'react';
+import { Box, Section } from 'tgui-core/components';
 
-import { useBackend, useLocalState } from '../backend';
-import { Box, Button, Flex, Section, TextArea } from '../components';
-import { Window } from '../layouts';
-import { sanitizeText } from '../sanitize';
+import { useBackend, useLocalState } from '../../backend';
+import { sanitizeText } from '../../sanitize';
+import { canEdit, tokenizer, walkTokens } from './helpers';
+import { StampView } from './StampView';
+import { FieldInput, InteractionType, PaperContext } from './types';
 
 const Z_INDEX_STAMP = 1;
 const Z_INDEX_STAMP_PREVIEW = 2;
