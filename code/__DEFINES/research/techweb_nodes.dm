@@ -98,6 +98,7 @@
 #define TECHWEB_NODE_PLASMA_CONTROL "plasma_control"
 #define TECHWEB_NODE_PLASMA_MINING "plasma_mining"
 #define TECHWEB_NODE_POSITRONIC_SPHERE "positronic_sphere"
+#define TECHWEB_NODE_AUTOSURGEON "autosurgeon"
 #define TECHWEB_NODE_PROGRAMMED_ROBOT "programmed_robot"
 #define TECHWEB_NODE_PROGRAMMED_SERVER "programmed_server"
 #define TECHWEB_NODE_PROGRAMMING "programming"

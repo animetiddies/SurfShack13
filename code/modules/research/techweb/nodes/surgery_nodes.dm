@@ -45,6 +45,7 @@
 	description = "When evolution isn't fast enough."
 	prereq_ids = list(TECHWEB_NODE_SURGERY_ADV)
 	design_ids = list(
+		"autosurgeon",
 		"surgery_cortex_folding",
 		"surgery_cortex_folding_mechanic",
 		"surgery_cortex_imprint",

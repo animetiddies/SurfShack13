@@ -6509,8 +6509,9 @@
 #include "interface\fonts\vcr_osd_mono.dm"
 #include "surfshack13\code\__DEFINES\bloodsuckers.dm"
 #include "surfshack13\code\__DEFINES\roles.dm"
-#include "surfshack13\code\__DEFINES\traits\bloodsucker_traits.dm"
 #include "surfshack13\code\__DEFINES\traits\bloodsucker_trait_sources.dm"
+#include "surfshack13\code\__DEFINES\traits\bloodsucker_traits.dm"
+#include "surfshack13\code\modules\improv_tools.dm"
 #include "surfshack13\code\modules\bloodsuckers\bloodsucker_assets.dm"
 #include "surfshack13\code\modules\bloodsuckers\bloodsucker\bloodsucker_conversion.dm"
 #include "surfshack13\code\modules\bloodsuckers\bloodsucker\bloodsucker_datum.dm"
@@ -6563,5 +6564,4 @@
 #include "surfshack13\code\modules\swarmers\swarmer_mob.dm"
 #include "surfshack13\code\modules\swarmers\swarmer_objs.dm"
 #include "surfshack13\code\modules\swarmers\swarmer_ruleset.dm"
-#include "surfshack13\code\modules\improv_tools.dm"
 // END_INCLUDE
