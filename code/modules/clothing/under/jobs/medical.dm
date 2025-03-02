@@ -150,16 +150,6 @@
 	icon_state = "paramedic"
 	inhand_icon_state = "w_suit"
 
-/obj/item/clothing/under/rank/medical/paramedic/skirt
-	name = "paramedic jumpskirt"
-	desc = "It's made of a special fiber that provides minor protection against biohazards. It has a dark blue cross on the chest denoting that the wearer is a trained paramedic."
-	icon_state = "paramedic_skirt"
-	inhand_icon_state = "w_suit"
-	body_parts_covered = CHEST|GROIN|ARMS
-	dying_key = DYE_REGISTRY_JUMPSKIRT
-	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
-	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
-
 /obj/item/clothing/under/rank/medical/doctor/nurse
 	desc = "It's a jumpsuit commonly worn by nursing staff in the medical department."
 	name = "nurse's suit"
