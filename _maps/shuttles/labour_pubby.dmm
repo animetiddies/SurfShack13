@@ -1,0 +1,305 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/machinery/power/shuttle_engine/propulsion,
+/turf/open/floor/iron/dark/textured_large/airless,
+/area/shuttle/labor)
+"d" = (
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/labor)
+"e" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/labor)
+"f" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/item/folder/red,
+/obj/item/restraints/handcuffs,
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 8
+	},
+/area/shuttle/labor)
+"g" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line,
+/obj/effect/turf_decal/trimline/neutral/filled/mid_joiner,
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/labor)
+"h" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/machinery/flasher/directional/east{
+	id = "gulagshuttleflasher"
+	},
+/obj/effect/turf_decal/trimline/neutral/filled/line,
+/obj/effect/turf_decal/trimline/neutral/filled/mid_joiner,
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/labor)
+"j" = (
+/obj/machinery/power/shuttle_engine/heater,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large/airless,
+/area/shuttle/labor)
+"l" = (
+/obj/machinery/mineral/labor_claim_console{
+	pixel_x = 30
+	},
+/obj/effect/turf_decal/loading_area/white,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/labor)
+"m" = (
+/obj/machinery/light/directional/north,
+/obj/machinery/digital_clock/directional/north{
+	pixel_y = 24
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/labor)
+"q" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/machinery/computer/shuttle/labor{
+	dir = 4
+	},
+/obj/structure/reagent_dispensers/wall/peppertank/directional/west,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/dark/smooth_corner,
+/area/shuttle/labor)
+"v" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/labor)
+"B" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/obj/effect/turf_decal/trimline/neutral/filled/line,
+/obj/effect/turf_decal/trimline/neutral/filled/mid_joiner,
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/labor)
+"C" = (
+/obj/effect/turf_decal/trimline/red/filled/line,
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/button/flasher{
+	id = "gulagshuttleflasher";
+	name = "Flash Control";
+	pixel_y = -26;
+	req_access = list("security")
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron/dark/smooth_edge,
+/area/shuttle/labor)
+"D" = (
+/obj/machinery/door/airlock/shuttle{
+	name = "Labor Shuttle Airlock"
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/labor)
+"E" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner,
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 4
+	},
+/area/shuttle/labor)
+"G" = (
+/obj/machinery/mineral/stacking_machine/laborstacker{
+	input_dir = 2;
+	output_dir = 1
+	},
+/obj/effect/turf_decal/bot_white,
+/obj/effect/turf_decal/siding/dark,
+/obj/effect/turf_decal/siding/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/labor)
+"I" = (
+/obj/machinery/door/airlock/shuttle{
+	id_tag = "prisonshuttle";
+	name = "Labor Shuttle Airlock"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/docking_port/mobile{
+	dir = 8;
+	shuttle_id = "laborcamp";
+	name = "labor camp shuttle";
+	port_direction = 4
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/labor)
+"K" = (
+/obj/structure/closet/crate/internals,
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron,
+/area/shuttle/labor)
+"M" = (
+/obj/effect/turf_decal/trimline/neutral/filled/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/shuttle/labor)
+"N" = (
+/obj/machinery/door/airlock/shuttle{
+	name = "Labor Shuttle Airlock"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/airlock/access/all/security/brig,
+/turf/open/floor/iron/dark/textured_large,
+/area/shuttle/labor)
+"O" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/turf/open/floor/plating,
+/area/shuttle/labor)
+"P" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner,
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/machinery/mineral/stacking_unit_console{
+	pixel_x = 30;
+	pixel_y = 30
+	},
+/turf/open/floor/iron/dark/smooth_corner{
+	dir = 1
+	},
+/area/shuttle/labor)
+"S" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/labor)
+"Z" = (
+/obj/effect/turf_decal/trimline/red/filled/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/red/filled/mid_joiner{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/structure/chair/comfy/shuttle,
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/shuttle/labor)
+
+(1,1,1) = {"
+d
+d
+O
+d
+O
+d
+O
+e
+S
+"}
+(2,1,1) = {"
+O
+q
+E
+D
+v
+B
+K
+j
+a
+"}
+(3,1,1) = {"
+O
+Z
+C
+e
+m
+g
+M
+j
+a
+"}
+(4,1,1) = {"
+O
+f
+P
+G
+l
+h
+M
+j
+a
+"}
+(5,1,1) = {"
+d
+d
+N
+d
+d
+d
+I
+e
+S
+"}

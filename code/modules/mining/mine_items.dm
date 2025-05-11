@@ -139,6 +139,9 @@
 	roundstart_template = /datum/map_template/shuttle/mining/nebula
 	height = 10
 
+/obj/docking_port/stationary/mining_home/pubby
+	roundstart_template = /datum/map_template/shuttle/mining/pubby
+
 /obj/docking_port/stationary/mining_home/common
 	name = "SS13: Common Mining Dock"
 	shuttle_id = "commonmining_home"

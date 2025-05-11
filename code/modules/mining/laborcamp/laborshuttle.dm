@@ -40,3 +40,6 @@
 
 /obj/docking_port/stationary/laborcamp_home/nebula
 	roundstart_template = /datum/map_template/shuttle/labour/nebula
+
+/obj/docking_port/stationary/laborcamp_home/pubby
+	roundstart_template = /datum/map_template/shuttle/labour/pubby
