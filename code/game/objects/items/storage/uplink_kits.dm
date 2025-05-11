@@ -357,6 +357,12 @@
 	for(var/i in 1 to 5)
 		new /obj/item/paper(src)
 
+/obj/item/storage/box/syndie_kit/adrenal
+	name = "adrenal implant box"
+
+/obj/item/storage/box/syndie_kit/adrenal/PopulateContents()
+	new /obj/item/implanter/adrenal(src)
+
 /obj/item/storage/box/syndie_kit/imp_freedom
 	name = "freedom implant box"
 

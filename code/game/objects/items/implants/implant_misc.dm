@@ -22,7 +22,9 @@
 	uses--
 	empulse(imp_in, 3, 5)
 	if(!uses)
+		balloon_alert(imp_in, "Last emp charge activated!")
 		qdel(src)
+	to_chat(imp_in, span_notice("Emp activated, charges left: [uses]"))
 
 /obj/item/implanter/emp
 	name = "implanter (EMP)"

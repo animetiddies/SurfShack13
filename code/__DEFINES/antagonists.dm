@@ -428,6 +428,8 @@ GLOBAL_LIST_INIT(human_invader_antagonists, list(
 #define BATON_MODES 4
 
 #define FREEDOM_IMPLANT_CHARGES 4
+#define ADRENAL_IMPLANT_CHARGES 7
+#define ADRENAL_IMPLANT_COOLDOWN 60 SECONDS
 
 // Spy bounty difficulties
 /// Can easily be accomplished by any job without any specialized tools, people won't really miss these things

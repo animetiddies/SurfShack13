@@ -7,6 +7,17 @@
 	category = /datum/uplink_category/implants
 	surplus = 50
 
+/datum/uplink_item/implants/adrenal
+	name = "Adrenal Implant"
+	desc = "When activated this implant injects a potent chemical cocktail designed to mitigate \
+	the effect of non lethal weaponry on the user's body and provide an opportunity to evade capture or fight back."
+	item = /obj/item/storage/box/syndie_kit/adrenal
+	cost = 6
+
+/datum/uplink_item/implants/adrenal/New()
+	desc += " Due to size limitations of the implant it only holds [ADRENAL_IMPLANT_CHARGES] charges and it takes \
+	[ADRENAL_IMPLANT_COOLDOWN/10] seconds to recharge"
+
 /datum/uplink_item/implants/freedom
 	name = "Freedom Implant"
 	desc = "Can be activated to release common restraints such as handcuffs, legcuffs, and even bolas tethered around the legs."

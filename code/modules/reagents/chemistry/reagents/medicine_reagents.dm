@@ -1201,7 +1201,7 @@
 		if(need_mob_update)
 			. = UPDATE_MOB_HEALTH
 	affected_mob.AdjustAllImmobility(-60  * REM * seconds_per_tick)
-	affected_mob.adjustStaminaLoss(-12 * REM * seconds_per_tick, updating_stamina = FALSE, required_biotype = affected_biotype)
+	affected_mob.adjustStaminaLoss(-30 * REM * seconds_per_tick, updating_stamina = FALSE, required_biotype = affected_biotype)
 
 /datum/reagent/medicine/stimulants/overdose_process(mob/living/affected_mob, seconds_per_tick, times_fired)
 	. = ..()
